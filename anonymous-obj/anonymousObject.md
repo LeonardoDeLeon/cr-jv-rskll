@@ -64,5 +64,5 @@ public class Demo
     }
 }
 ```
-	![alt text](https://github.com/LeonardoDeLeon/cr-jv-rskll/tree/main/anonymous-obj/anonymous-obj/stack-n-heap.JPG?raw=true)
+	![alt text](https://github.com/LeonardoDeLeon/cr-jv-rskll/tree/main/anonymous-obj/anonymous-obj/stack-n-heap.jpg?raw=true)
 
