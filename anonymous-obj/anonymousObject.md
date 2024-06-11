@@ -40,7 +40,7 @@ Behind the scene, the reference variable, `obj` is kept in stack memory as shown
 
 Likewise, the actual object of A is kept in the heap memory as shown in figure below
 
-	![alt text](stack-n-heap.PNG)
+	![alt text](/anonymous-obj/stack-n-heap.PNG)
 
 ### Example of anonymous object
 ```
@@ -64,5 +64,5 @@ public class Demo
     }
 }
 ```
-	![alt text](stack-n-heap.JPG)
+	![alt text](/anonymous-obj/stack-n-heap.JPG)
 
