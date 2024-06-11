@@ -1,11 +1,46 @@
 # Anonymous Object
 
 ## What is anonymous object?
-Anonymous Object term
-: an object without a name
 
-- use only once
+### Anonymous Object
+
+- an object with no name
+- can be used only once
 - has no reference variable
+
+### Digging deeper
+
+Using class A below as an example,
+
+```
+class A
+{
+    void show()
+    {
+        System.out.println("in A show()");
+    }
+}
+```
+
+The code below shows a reference variable `obj` is created for class A.
+The next line uses the `new` keyword to create object of A and assign it to `obj`
+
+```
+A obj;
+obj = new A();
+```
+
+Behind the scene, the reference variable, `obj` is kept in stack memory as shown in table below.
+
+| Reference Variable | Address |
+|--------------------|---------|
+|                    |         |
+|                    |         |
+| obj                | 101     |
+
+Likewise, the actual object of A is kept in the heap memory as shown in figure below
+
+	![alt text](/stack-n-heap.png)
 
 ### Example of anonymous object
 ```
