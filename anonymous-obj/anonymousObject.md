@@ -1,7 +1,7 @@
 # Anonymous Object
 
 ## What is anonymous object?
-Anonymous Object
+Anonymous Object term
 : an object without a name
 
 - use only once
